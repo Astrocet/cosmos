@@ -1,93 +1,103 @@
-<!DOCTYPE html>
-<html>
-  <head>
-   <meta charset="utf-8">
-   <title>Земля</title>
-   <meta name="viewport" content="width=device-width">
-   <link rel="stylesheet" href="style/Земля.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top">
-      <img class="planet" src="nasa-vhSz50AaFAs-unsplash 1.png" alt="Земля">
-      <div top-text>
-        <div class="top-text-top">
-          <h1>ЗЕМЛЯ</h1>
-          <p>третья по удалённости от Солнца планета</p>
-        </div>
-      
-        <div class="top-block">
-          <div class="top-block-1">
-            <p class="top-block-bg">Масса: 5,98⋅10^24 кг</p>
-            <p class="top-block-bg">Плотность: 5510 кг/м^3</p>
-            <p class="top-block-bg">Период обращения: 365,26 суток</p>
-          </div>
-          <div class="top-block-2">
-            <p class="top-block-bg">Расстояние от Солнца: 1 а. е.</p>
-            <p class="top-block-bg">Диаметр: 12 756 км</p>
-            <p class="top-block-bg">Период вращения: 23 ч 56 мин</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="base">
-      <div class="H">
-        <div class="T">
-          <div class="T1">
-            <p>
-              Особенностями
-              нашей планеты являются наличие гидросферы и биосферы, а также большая
-              динамическая активность коры и атмосферы. И атмосфера, и кора существенно
-              изменены в результате эволюции живых организмов.
-            </p>
-          </div>
-        </div>
-    </div>
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-image: url(Group\ 10.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(11, 11, 11, 1);
+}
 
-      <div class="H">
-        <h1>Поверхность и кора</h1>
-      </div>
-      <div class="T">
-        <div class="T1">
-          <p>
-            Земная кора неодинакова по толщине в разных частях
-            планеты. Под материками она составляет 35-70 км, а под океанами около 5 км.
-            Предполагается, что «корни» материков уходят вглубь вязкого и частично распла-
-            вленного пограничного слоя верхней мантии (астеносферы), так же как основания
-            айсбергов в глубины моря, и поддерживаются в равновесии архимедовой силой.
-            Это равновесие носит название изостатического. Есть серьезные свидетельства
-            в пользу медленного движения материков. Это наиболее крупномасштабные тектонические
-            явления, которые отражают перемещение плит земной коры и, в свою
-            очередь, являются результатом конвекции в мантии
-          </p>
-        </div>
-      </div>
- 
-      <div class="H1">
-        <h1>Атмосфера</h1>
-      </div>
-      <div class="T">
-        <div class="T1">
-          Азот
-          и кислород — основные компоненты атмосферы, С02 очень мало, в отличие от Венеры
-          и Марса, где углекислый газ — главная составляющая атмосферы. Причины
-          различия отмечались в §9.4.
-          Средняя температура в основании атмосферы 288 К, эффективная температура
-          249 К. Таким образом, парниковый эффект создает избыток А Т = 39 К.
-          По счастливой случайности этот избыток как раз таков, чтобы поддерживать
-          температуру нашей планеты в средних и экваториальных широтах на уровне,
-          оптимальном для существования теплокровных организмов.
-        </div>
-      </div>
-      <div class="T2">
-        Общая циркуляция земной атмосферы вместе с океанскими течениями сглаживает
-        температурные разности между полюсами и экватором. В земной атмосфере
-        доминирует волновой режим общей циркуляции. Крупномасштабные
-        волновые движения проявляются в виде циклонов и антициклонов —
-        вихревых движений, соответственно с пониженным и повышенным давлением
-        в центре
-    </div>
-  </body>
-</html>
+.top{
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+  justify-content: center;
+  align-self: center;
+}
+
+.top-text-top{
+  margin-left: 5%;
+}
+
+.top-text{
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+}
+
+.top-block{
+  display: flex;
+  flex-direction: column;
+  margin-right: 11.5%;
+  width: 70%;
+}
+.top-block-1{
+  display: flex;
+}
+
+.top-block-2{
+  display: flex;
+}
+
+.top-block-bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(29, 152, 241, 0.1);
+  margin: 5%;
+  border-radius: 17px;
+  padding: 5%;
+}
+
+.planet{
+  width: 30%;
+  height: 100%;
+  margin-right: 11.5%;
+  margin-left: 11.5%;
+}
+
+.base{
+  display: flex;
+  flex-direction: column;
+  margin: 11.5%;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.T{
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+  background-color: rgba(29, 152, 241, 0.1);
+  border-radius: 17px;
+  margin-top: 5%;
+}
+
+.T1{
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.T2{
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+  background-color: rgba(29, 152, 241, 0.1);
+  border-radius: 17px;
+  margin-top: 10%;
+  padding: 5%;
+}
+
+.H{
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+
+.H1{
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+
