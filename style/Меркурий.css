@@ -80,3 +80,17 @@ body{
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+.T2{
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+  background-color: rgba(29, 152, 241, 0.1);
+  border-radius: 17px;
+  margin-top: 10%;
+  padding: 5%;
+}
+
+.H1{
+  margin-bottom: 0;
+}
