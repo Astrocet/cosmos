@@ -1,0 +1,158 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-image: url(Group\ 14f.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(11, 11, 11, 1);
+}
+.header{
+  margin-top: 11.5%;
+  margin-left: 11.5%;
+  margin-right: 11.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  font-size: 250%;
+  margin-bottom: 0;
+}
+
+.text{
+  margin-top: none;
+  font-size: 125%;
+}
+.menu{
+  margin-top: 25%;
+  margin-right: 11.5%;
+  margin-left: 11.5%;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-between;
+  font-size: 100%;
+}
+
+.menu_1{
+  display: flex;
+  margin-top: 25%;
+  background-color: rgba(29, 152, 241, 0.1);
+  border-radius: 20px;
+}
+
+.menu_2{
+  margin-top: 11.5%;
+  display: flex;
+  background-color: rgba(29, 152, 241, 0.1);
+  border-radius: 20px;
+}
+
+.menu_3{
+  margin-top: 11.5%;
+  display: flex;
+  background-color: rgba(29, 152, 241, 0.1);
+  border-radius: 20px;
+}
+
+.menu_4{
+  margin-top: 11.5%;
+  display: flex;
+  background-color: rgba(29, 152, 241, 0.1);
+  border-radius: 20px;
+}
+
+.icon-1{
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 15%;
+  margin-left: 3%;
+  margin-right: 3% ;
+}
+
+.icon-2{
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 15%;
+  margin-left: 3% ;
+  margin-right: 3% ;
+}
+
+.icon-3{
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 15%;
+  margin-left: 3% ;
+  margin-right: 3% ;
+}
+
+.icon-4{
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  width: 15%;
+  margin-left: 3% ;
+  margin-right: 3% ;
+}
+
+.cc{
+ color: white;
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+}
+
+.cc:hover{
+  opacity: 0.5;
+}
+
+.нм{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.нм:hover{
+  opacity: 0.5;
+}
+
+.зс{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+} 
+
+.зс:hover{
+  opacity: 0.5;
+}
+
+.ск{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.ск:hover{
+  opacity: 0.5;
+}
+
+.space{
+  margin-top: 60%;
+  color: black;
+}
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 480px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 479px) {
+}
+@media (max-width: 320px) {
+}

@@ -1,0 +1,146 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-image: url(Group\ 15.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(11, 11, 11, 1);
+}
+
+.header{
+  margin: 15% ;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  font-size: 200%;
+}
+
+.slider{
+  margin-top: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.planeti-text{
+display: flex;
+justify-content: center;
+font-size: 200%;
+}
+
+.swiper {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+}
+
+.swiper-wrapper{
+  box-sizing: content-box;
+}
+
+.swiper-slide{
+ display: flex; 
+ justify-content: center;
+}
+
+.swiper-slide img{
+  width: 50%;
+  height: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev{
+  color: white;
+}
+
+.sun{
+  margin-top: 25%;
+  display: flex;
+  font-size: 30px;
+}
+
+.sun-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.sun-image{
+  width: 50%;
+  height: 50%;
+}
+
+.information-about-sun{
+  display: flex;
+}
+
+.top{
+  display: flex;
+  width: 100%;
+  margin-top: 25%;
+  justify-content: center;
+  align-self: center;
+}
+
+.top-text-top{
+  margin-left: 5%;
+}
+
+.top-text{
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+}
+
+.top-block{
+  display: flex;
+  flex-direction: column;
+  margin-right: 11.5%;
+  width: 80%;
+}
+.top-block-1{
+  display: flex;
+}
+
+.top-block-2{
+  display: flex;
+}
+
+.top-block-bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(138, 149, 176, 0.1);
+  border-radius: 17px;
+  margin: 3%;
+  padding: 7%;
+}
+
+.planet{
+  width: 40%;
+  height: 100%;
+  margin-right: 11.5%;
+}
+
+.sun-inf{
+  margin: 11.5%;
+}
+
+.sun-inf-1{
+  display: flex;
+  margin-top: 25%;
+}
+
+.sun-inf-2{
+  display: flex;
+  margin-top: 25%;
+}
+
+.sun-inf-2-img{
+  width: 30%;
+}
+
+.s-2{
+  margin-right: 5%;
+  width: 50%;
+}

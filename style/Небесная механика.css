@@ -1,0 +1,123 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-image: url(Group\ 22.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(11, 11, 11, 1);
+}
+
+.heading {
+  font-size: 200%;
+  margin: 11.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  margin-top: 35%;
+  margin-left: 11.5%;
+  margin-right: 11.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+}
+
+.sun-earth{
+  width: 50%;
+  height: 100%;
+}
+
+.zvt {
+  display: flex;
+  flex-direction: column;
+}
+.zvt-heading {
+  display: flex;
+  background: rgba(138, 149, 176, 0.1);
+  padding: 3%;
+}
+
+.zvt-text {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.zvt-text-1 {
+  display: flex;
+}
+.zvt-text-2 {
+  display: flex;
+}
+
+.zvt-flex{
+display: flex;
+}
+
+.zvt-img{
+  display: flex;
+  margin-left: 5%;
+  align-self: center;
+  margin-right: 15%;
+  width: 50%;
+}
+
+.zvt-img-1{
+  margin-top: 5%;
+  width: 50%;
+}
+
+.zk {
+  display: flex;
+  flex-direction: column;
+}
+.zk-heading {
+  display: flex;
+  background: rgba(138, 149, 176, 0.1);
+  padding: 3%;
+}
+.zk-text {
+  display: flex;
+}
+.zk-text-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.zk-text-heading {
+  display: flex;
+  margin-bottom: 0;
+}
+.zk-text-text {
+  display: flex;
+  margin-top: 1%;
+}
+.zk-text-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.zk-text-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.zk-img{
+  width: 50%;
+}
+
+.zk-flex{
+  display: flex;
+}
+
+.img-r{
+  display: flex;
+  align-self: center;
+  margin-left: 10%;
+  width: 25%;
+}

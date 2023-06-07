@@ -1,0 +1,58 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-image: url(Group\ 10.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(11, 11, 11, 1);
+}
+
+.top{
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+  justify-content: center;
+  align-self: center;
+}
+
+.top-text-top{
+  margin-left: 5%;
+}
+
+.top-text{
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+}
+
+.top-block{
+  display: flex;
+  flex-direction: column;
+  margin-right: 11.5%;
+  width: 70%;
+}
+.top-block-1{
+  display: flex;
+}
+
+.top-block-2{
+  display: flex;
+}
+
+.top-block-bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(29, 152, 241, 0.1);
+  margin: 5%;
+  border-radius: 17px;
+  padding: 5%;
+}
+
+.planet{
+  width: 30%;
+  height: 100%;
+  margin-right: 11.5%;
+  margin-left: 11.5%;
+}

@@ -1,0 +1,129 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-image: url(Group\ 16.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(11, 11, 11, 1);
+}
+
+.header{
+  margin-top: 15%;
+  margin-left: 11.5%;
+  margin-right: 11.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  margin-right: 60%;
+  font-size: 200%;
+}
+
+.n-sfera{
+  display: flex;
+  flex-direction: column;
+  margin: 11.5%;
+  margin-top: 25%;
+}
+
+.n-sfera-2{
+  display: flex;
+  flex-direction: column;
+  margin: 11.5%;
+}
+
+
+.system{
+  display: flex;
+  flex-direction: column;
+}
+
+.a-system{
+  display: flex;
+  margin: 11.5%;
+}
+
+.g-system-1{
+  display: flex;
+  margin: 11.5%
+}
+
+.g-system-2{
+  display: flex;
+  margin: 11.5%
+}
+
+.a-system-img{
+width: 60%;
+margin-right: 15%;
+}
+
+.g-system-1-img{
+  width: 60%;
+  margin-right: 15%;
+}
+
+.g-system-2-img{
+  width: 60%;
+  margin-right: 15%;
+}
+
+.a-system-bar{
+  margin-left: 5%;
+  align-self: center;
+}
+.g-system-bar-1{
+  align-self: center;
+}
+
+.g-system-bar-2{
+  align-self: center;
+}
+
+.g-1{
+  display: flex;
+}
+
+
+.r{
+  margin-right: 5%;
+}
+
+.r-1{
+  margin-right: 10%;
+}
+
+.bl{
+  background-color: rgba(0, 164, 255, 0.2);
+  padding: 3%;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+.f{
+  background-color: rgba(83, 61, 214, 0.2);
+  padding: 3%;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+.gr{
+  background-color: rgba(29, 245, 116, 0.3);
+  padding: 3%;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+.re{
+  background-color: rgba(234, 32, 32, 0.2);
+  padding: 3%;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+.n{
+  padding: 3%;
+  margin-top: 5%;
+}
