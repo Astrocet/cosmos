@@ -56,3 +56,32 @@ body{
   margin-right: 11.5%;
   margin-left: 11.5%;
 }
+
+.base{
+  display: flex;
+  flex-direction: column;
+  margin: 11.5%;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.T{
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+  background-color: rgba(29, 152, 241, 0.1);
+  border-radius: 17px;
+  margin-top: 5%;
+}
+
+.T1{
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.H1{
+  margin-top: 10%;
+  margin-bottom: 0;
+}
