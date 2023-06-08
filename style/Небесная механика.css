@@ -3,7 +3,7 @@ body{
   font-weight: 400;
   color: white;
   background-image: url(Group\ 22.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-color: rgba(11, 11, 11, 1);
 }
